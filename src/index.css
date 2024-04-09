@@ -1,13 +1,43 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+/* Styling for the admin links section */
+.App-header {
+    background-color: #f0f0f0; /* A light background for the section */
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.admin-links li {
+    margin-bottom: 10px;
+}
+
+.admin-links a {
+    color: #3366cc; /* A shade of blue for links */
+    text-decoration: none;
+    display: block; /* Make link occupy the full available width */
+    padding: 10px;
+    border: 1px solid #ddd; /* A subtle border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.admin-links a:hover {
+    background-color: #e8e8e8; /* Highlight on hover */
 }
